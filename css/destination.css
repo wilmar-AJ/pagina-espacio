@@ -1,0 +1,18 @@
+body{
+    background-image: url(../starter-code/assets/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#menu li:nth-child(2) {
+    border-bottom: 4px solid white;
+}
+/* INICIO CENTRO */
+#izquierda #text{
+    margin-top: 6%;
+    margin-left: 10%;
+    color: rgb(152, 152, 152);
+}
+#text h1{
+    margin-bottom: 6%;
+}
