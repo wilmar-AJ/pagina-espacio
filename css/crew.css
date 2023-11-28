@@ -3,3 +3,45 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#menu li:nth-child(3) {
+    border-bottom: 4px solid white;
+}
+#content{
+    color: rgb(206, 204, 204);
+    display: flex;
+    margin-top: 5%;
+}
+#descrip h3{
+    font-size: 25px;
+    font-weight: 100;
+}
+#descrip h2{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.354);
+    margin-top: 35%;
+    font-weight: 100;
+}
+#descrip h1{
+    font-size: 60PX;
+    font-weight: 100;
+    margin: 2% 0;
+}
+#descrip p{
+    font-weight: 100;
+    line-height: 30px;
+    font-size: 18px;
+    color:rgb(160, 180, 188);
+}
+#izquierda #puntos{
+    display: flex;
+    margin-top: 20%;
+}
+#puntos li{
+    margin: 0;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.395);
+}
+#puntos li:hover{
+    color: white;
+}
+

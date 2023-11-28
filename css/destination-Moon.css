@@ -18,11 +18,15 @@ body{
 #text h1{
     margin-bottom: 25%;
 }
+#izquierda{
+    min-width:50% ;
+}
 #derecha{
     color: rgb(206, 204, 204);
     margin-top: 10%;
     list-style: none;
     margin-right:20% ;
+    min-width: 25%;
 }
 #derecha #men{
     display: flex;
