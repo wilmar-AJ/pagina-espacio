@@ -2,7 +2,7 @@ body{
     background-image: url(../starter-code/assets/destination/background-destination-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 #menu li:nth-child(2) {
     border-bottom: 4px solid white;
@@ -23,18 +23,43 @@ body{
     color: rgb(206, 204, 204);
     margin-top: 10%;
     list-style: none;
+    margin-right:20% ;
+}
+#derecha #men{
+    display: flex;
+    margin-right:0 ;
 }
 #men li a{
     text-decoration: none;
     color:rgb(206, 204, 204);
+    
 }
-#derecha #men{
-    display: flex;
+#men li{
+    padding-bottom: 3%;
+    margin-left: 0;
+}
+#men li:nth-child(1) {
+    border-bottom: 3px solid white;
 }
 #derecha #texto{
-    margin-bottom: 5%;
+    margin-bottom: 16%;
+    border-bottom:1px solid ;
 }
-#bajo .card {
+#texto h1{
+    font-size: 100px;
+    font-weight: 100;
+    margin: 10% 0;
+}
+#texto p{
+    line-height: 32px;
+    font-size: 20px;
+    margin-bottom: 15%;
+    color: rgb(160, 180, 188);
+}
+#bajo {
     display: flex;
+    margin-bottom: 50%;
 }
+
+
 
