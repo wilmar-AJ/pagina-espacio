@@ -1,0 +1,40 @@
+body{
+    background-image: url(../starter-code/assets/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#menu li:nth-child(2) {
+    border-bottom: 4px solid white;
+}
+/* INICIO CENTRO */
+#content {
+    display: flex;
+}
+#izquierda #text{
+    margin-top: 20%;
+    margin-left: 10%;
+    color: rgb(206, 204, 204);
+}
+#text h1{
+    margin-bottom: 25%;
+}
+#derecha{
+    color: rgb(206, 204, 204);
+    margin-top: 10%;
+    list-style: none;
+}
+#men li a{
+    text-decoration: none;
+    color:rgb(206, 204, 204);
+}
+#derecha #men{
+    display: flex;
+}
+#derecha #texto{
+    margin-bottom: 5%;
+}
+#bajo .card {
+    display: flex;
+}
+
