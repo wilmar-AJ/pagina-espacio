@@ -38,8 +38,9 @@ body{
     padding-bottom: 3%;
     margin-left: 0;
 }
-#men li:nth-child(1) {
-    border-bottom: 3px solid white;
+#men li :hover{
+    padding: 15px 0;
+    border-bottom: 3px solid rgb(152, 152, 152);
 }
 #derecha #texto{
     margin-bottom: 16%;
