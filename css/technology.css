@@ -1,0 +1,58 @@
+body{
+    background-image: url(../starter-code/assets/technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu li:nth-child(4) {
+    border-bottom: 4px solid white;
+}
+#content{
+    color: rgb(206, 204, 204);
+    display: flex;
+    margin-top: 9%;
+    margin-bottom: 7%;
+}
+#izquierda{
+    margin-left: 12%;
+    min-width: 35%;
+}
+#derecha{
+    min-width: 40%;
+}
+#izquierda #titulo h3 {
+    font-size: 35px;
+    font-weight: 100;
+}
+#izquierda #descrip{
+    margin-top: 17%;
+    display: flex;
+    
+}
+#num{   
+    border-radius: 100%;
+}
+#num li a{
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+}
+#num li{
+    padding: 20px;
+    list-style: none;
+}
+#texto{
+    margin-left: 10%;
+}
+#texto h4{
+    font-weight: 100;
+}
+#texto h1{
+    font-size: 70px;
+    font-weight: 100;
+    font-weight: 100;
+}
+#texto p{
+    color: rgb(160, 180, 188);
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 17%;
+}

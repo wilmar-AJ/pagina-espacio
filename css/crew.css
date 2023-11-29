@@ -34,17 +34,26 @@ body{
     color:rgb(160, 180, 188);
     margin-right: 28%;
 }
-#izquierda #puntos{
+#puntos ul{
+    list-style: none;
+    padding: 0;
     display: flex;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 #puntos li{
-    margin: 0;
-    font-size: 40px;
-    color: rgba(255, 255, 255, 0.395);
+    margin-right: 4%;
+    margin-left: 0;
 }
-#puntos li:hover{
-    color: white;
+.punto a{
+    display: inline-block;
+    background-color: gray;
+    padding: 7px;
+    
+    text-decoration: none;
+    border-radius: 100%;
+}
+.punto a:hover{
+    background-color: white;
 }
 #derecha{
     min-width:45% ;
