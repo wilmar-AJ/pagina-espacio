@@ -10,19 +10,20 @@ body{
     color: rgb(206, 204, 204);
     display: flex;
     margin-top: 5%;
+    margin-bottom: 1%;
 }
 #descrip h3{
     font-size: 25px;
     font-weight: 100;
 }
 #descrip h2{
-    font-size: 30px;
+    font-size: 35px;
     color: rgba(255, 255, 255, 0.354);
     margin-top: 35%;
     font-weight: 100;
 }
 #descrip h1{
-    font-size: 60PX;
+    font-size: 70PX;
     font-weight: 100;
     margin: 2% 0;
 }
@@ -31,6 +32,7 @@ body{
     line-height: 30px;
     font-size: 18px;
     color:rgb(160, 180, 188);
+    margin-right: 28%;
 }
 #izquierda #puntos{
     display: flex;
@@ -44,4 +46,11 @@ body{
 #puntos li:hover{
     color: white;
 }
-
+#derecha{
+    min-width:45% ;
+    margin-left: 6%;
+}
+#izquierda{
+    min-width: 25%;
+    margin-left: 10%;
+}
