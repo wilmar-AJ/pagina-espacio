@@ -26,18 +26,23 @@ body{
 #izquierda #descrip{
     margin-top: 17%;
     display: flex;
-    
+    justify-content: space-between;
 }
-#num{   
-    border-radius: 100%;
-}
-#num li a{
-    text-decoration: none;
-    color: rgb(221, 221, 221);
-}
-#num li{
-    padding: 20px;
+#nume {
     list-style: none;
+    font-size: 45px;
+    margin-top: 3%;
+}
+#nume .num{
+    margin-bottom: 50px;
+}
+.num a{
+    text-decoration: none;
+    color: white;
+    border-radius: 100%;
+    border: 1px solid #484c5594;
+    padding: 10px 25px;
+    box-sizing: border-box;
 }
 #texto{
     margin-left: 10%;
