@@ -23,7 +23,7 @@ body{
     font-weight: 100;
 }
 #descrip h1{
-    font-size: 70PX;
+    font-size: 65PX;
     font-weight: 100;
     margin: 2% 0;
 }
@@ -51,6 +51,6 @@ body{
     margin-left: 6%;
 }
 #izquierda{
-    min-width: 25%;
+    min-width: 45%;
     margin-left: 10%;
 }
