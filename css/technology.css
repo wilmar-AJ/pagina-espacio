@@ -75,3 +75,52 @@ body{
         background-size: cover;
     }
 }
+@media (max-width:425px){
+    #izquierda #descrip{
+        margin-left: 5%;
+        flex-direction: column-reverse;
+    }
+    #nume{
+        display: flex;
+        margin-left: 0;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+    #izquierda{
+        width: 95%;
+        margin-left: 0;
+    }
+    #izquierda #titulo h3{
+        font-size: 20px;
+        margin-left: 20%;
+    }
+    #texto h1{
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    #texto p{
+        font-size: 15px;
+        line-height: 23px;
+        width: 90%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    #nume {
+        font-size: 25px;
+    }
+    .num a{ 
+        padding: 7px 15px;
+    }
+    #derecha{
+        width: 90%;
+    }
+    #derecha #img{
+        width: 100%;
+    }
+    body{
+        background-image: url(../starter-code/assets/technology/background-technology-tablet.jpg.);
+        background-image: url(../starter-code/assets/technology/background-technology-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
