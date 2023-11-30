@@ -62,14 +62,13 @@ header #menu{
     }
     header #menu{
         display: none;
-        background-color: white;
-        border-radius: 2%;
-        line-height: 200%;
+        background-color: rgb(74, 73, 73);
+        line-height: 100%;
         position: absolute;
-        top:14%;
-        right: 5%;
+        top:0%;
+        right: 0%;
         flex-direction: column;
         padding: 40px 0;
-        width: 90%;
+        width: 50%;
     }
 }

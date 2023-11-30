@@ -18,6 +18,7 @@ body{
 }
 #text h1{
     margin-bottom: 25%;
+    font-weight: 100;
 }
 #izquierda{
     min-width: 45%;
@@ -97,6 +98,43 @@ body{
     body{
         background-image: url(../starter-code/assets/destination/background-destination-desktop.jpg.);
         background-image: url(../starter-code/assets/destination/background-destination-tablet.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+}
+@media (max-width:425px){
+    #derecha{
+        margin-left: 5.5%;
+    }
+    #derecha #texto{
+        width: 80%;
+    }
+    #texto h1{
+        font-size: 50px;
+    }
+    #texto p{
+        line-height: 27px;
+        font-size: 15px;
+    }
+    #izquierda #text{
+        width: 80%;
+    }
+    #text #img{
+        width: 60%;
+        margin-left: 15%;
+    }
+    #text h1{
+        font-size: 20px;
+        margin-left: 10%;
+    }
+    .card h1{
+        font-size: 25px;
+    }
+    body{
+        background-image: url(../starter-code/assets/destination/background-destination-tablet.jpg.);
+        background-image: url(../starter-code/assets/destination/background-destination-mobile.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;

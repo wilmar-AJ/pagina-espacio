@@ -68,8 +68,12 @@ body{
         flex-direction: column;
     }
     #derecha{
-        width: 100%;
+        width: 80%;
         margin-top: 6%;
+    }
+    #derecha img{
+        width: 70%;
+        margin-left: 20%;
     }
     #descrip h1{
         font-size: 30px;
@@ -91,6 +95,35 @@ body{
     body{
         background-image: url(../starter-code/assets/crew/background-crew-desktop.jpg.);
         background-image: url(../starter-code/assets/crew/background-crew-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media (max-width:425px){
+    #descrip h3,
+    #descrip h2,
+    #descrip h1,
+    #descrip p{
+        width: 80%;
+        font-size: 20px ;
+    }
+    #descrip h2{
+        margin-left: 22%;
+    }
+    #descrip h1{
+        margin-left: 16%;
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    #descrip p{
+        font-size: 15px;
+        line-height: 25px;
+        margin-left: 9%;
+    }
+    body{
+        background-image: url(../starter-code/assets/crew/background-crew-tablet.jp.);
+        background-image: url(../starter-code/assets/crew/background-crew-mobile.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }

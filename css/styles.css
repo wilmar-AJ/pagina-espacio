@@ -16,9 +16,10 @@ body{
     margin-top: 8%;
     display: flex;
 }
-#content #izquierda{
+#izquierda{
     color: rgb(221, 221, 221);
     margin: 11%;
+    width: 30%;
 }
 #izquierda h2{
     font-size: 35px;
@@ -26,7 +27,7 @@ body{
 }
 #izquierda h1{
     font-size: 150px;
-    font-weight: 1;
+    font-weight: 100;
     margin: 10px 0 15px 0;
 }
 #izquierda p{
@@ -51,6 +52,39 @@ body{
     body{
         background-image: url(../starter-code/assets/home/background-home-desktop.jpg.);
         background-image: url(../starter-code/assets/home/background-home-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media (max-width:425px){
+    #izquierda{
+        width: 100%;
+        margin-left: 0;
+    }
+    #izquierda h1{
+        width: 80%;
+        font-size: 90px;
+        margin: 40px 50px;
+    }
+    #izquierda h2{
+        width: 80%;
+        font-size: 20px;
+        margin-left: 20%;
+    }
+    #izquierda p{
+        width: 80%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #btnderecha{
+        padding: 65px 30px;
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 50%;
+    }
+    body{
+        background-image: url(../starter-code/assets/home/background-home-tablet.jpg.);
+        background-image: url(../starter-code/assets/home/background-home-mobile.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
