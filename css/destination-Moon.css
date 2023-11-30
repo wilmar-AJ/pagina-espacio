@@ -8,6 +8,7 @@ body{
 }
 /* INICIO CENTRO */
 #content {
+    
     display: flex;
 }
 #izquierda #text{
@@ -73,4 +74,32 @@ body{
 }
 .card h1{
     font-weight: 100;
+}
+@media (max-width:768px){
+    #content{
+        flex-direction: column;
+    }
+    #derecha{
+        width: 85%; 
+    }
+    #derecha #men{
+        margin-left: 15%;
+    }
+    #derecha #texto{
+        margin-left: 15%;
+    }
+    #texto h1{
+        margin-left: 20%
+    }
+    #bajo{
+        margin-left: 15%;
+    }
+    body{
+        background-image: url(../starter-code/assets/destination/background-destination-desktop.jpg.);
+        background-image: url(../starter-code/assets/destination/background-destination-tablet.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
 }

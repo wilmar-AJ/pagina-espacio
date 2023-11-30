@@ -61,3 +61,17 @@ body{
     line-height: 30px;
     margin-right: 17%;
 }
+@media (max-width:768px){
+    #content{
+        flex-direction:column;
+    }
+    #izquierda{
+        margin-bottom: 7%;
+    }
+    body{
+        background-image: url(../starter-code/assets/technology/background-technology-desktop.jpg.);
+        background-image: url(../starter-code/assets/technology/background-technology-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

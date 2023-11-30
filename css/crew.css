@@ -63,3 +63,35 @@ body{
     min-width: 45%;
     margin-left: 10%;
 }
+@media (max-width:768px){
+    #content{
+        flex-direction: column;
+    }
+    #derecha{
+        width: 100%;
+        margin-top: 6%;
+    }
+    #descrip h1{
+        font-size: 30px;
+        margin-left: 25%;
+    }
+    #descrip h2{
+        margin-top: 14%;
+        margin-left: 35%;
+        font-size: 20px;
+    }
+    #descrip p {
+        margin-right: 20%;
+        margin-left: 14%;
+        font-size: 17px;
+    }
+    #puntos ul{
+        margin-left: 35%;
+    }
+    body{
+        background-image: url(../starter-code/assets/crew/background-crew-desktop.jpg.);
+        background-image: url(../starter-code/assets/crew/background-crew-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
